@@ -1,9 +1,7 @@
---extra-index-url https://download.pytorch.org/whl/cu118
 
 # Core ML/Training Libraries
-torch==2.7.1+cu118
-torchvision==0.22.1+cu118
-torchaudio==2.7.1+cu118
+--index-url https://download.pytorch.org/whl/cu121 \
+  "torch==2.5.*" "torchvision==0.20.*" "torchaudio==2.5.*"
 
 git+https://github.com/huggingface/transformers.git
 trl==0.14.0
